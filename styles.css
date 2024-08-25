@@ -1,0 +1,164 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.bundle-save {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+}
+
+.bundle-save h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.option {
+    padding: 10px 0;
+    border: 2px solid  grey;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.option label {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    cursor: pointer;
+}
+
+.option input[type="radio"] {
+    margin-right: 10px;
+}
+
+.selection {
+    display: none;
+    flex-direction: column;
+    padding-top: 10px;
+}
+
+.size-color-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+
+}
+
+.size-color-row select {
+    margin-left: 10px;
+}
+
+.total {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+button {
+    background-color:#007b5e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #005b48;
+}
+
+.option.active {
+    background-color: #f0f9f5;
+    border-color: #b3dec1;
+}
+
+.option.active .selection {
+    display: flex;
+}
+
+.price,.discount {
+    font-weight: bold;
+}
+
+.discount {
+    transform: translate(-50px,-10px);
+}
+
+.discount2 {
+    transform: translate(-40px,5px);
+    font-weight: bold;
+}
+
+/* .price {
+    transform: translate(-55px, -2px);
+} */
+
+.price {
+    margin-left: -150px; /* Adjust this to move it closer/further from the .one div */
+    margin-top: -10px;
+}
+
+.price2 {
+    margin-left: -10px; /* Adjust this to move it closer/further from the .one div */
+    margin-top: -10px;
+    font-weight: bold;
+}
+
+/* .one {
+    transform: translate(32px, -23px);
+} */
+
+ .two {
+    transform: translate(35px, -23px);
+}
+
+/*.three {
+    transform: translate(35px, -23px);
+} */
+
+.one, .three {
+    margin-left: 30px; /* Slight right alignment */
+    margin-top: -50px; /* Slight upward alignment */
+}
+.hash {
+    transform: translate(15px);
+}
+
+.sz {
+    transform: translate(-144px);
+}
+
+.mp {
+    transform: translate(55px,-20px);
+
+    font-weight: bold;
+}
+.free, h2, .mp {
+color: green;
+}
+
+.size {
+    transform: translate(35px, 7px);
+}
+
+.color {
+    transform: translate(90px, -10px);
+}
+
